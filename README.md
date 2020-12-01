@@ -1,11 +1,20 @@
 # Note-taking-App
 
-Do `npm install` inside frontend/ and api/
+Inside api/
+npm install
+npm audit fix
+node app.js
 
-Then `npm uninstall node-sass` inside frontend/
+If MongoDB not connected then
+sudo apt install mongodb-org
+sudo systemctl start mongod.service
+sudo systemctl status mongod
 
-Then `npm install node-sass@4.14.1` inside frontend/
 
-To run the code
+Inside frontend/
+npm install
+npm uninstall node-sass
+npm install node-sass@4.14.1
+npm start
 
-`npm start` in api/ and frontend/
+Go to http://localhost:4200/
